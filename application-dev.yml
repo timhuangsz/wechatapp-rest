@@ -1,5 +1,5 @@
 server:
-  port: 5081
+  port: 5180
   servlet-path: /
   context-path: /WechatApp/Rest
   jsp-servlet:
