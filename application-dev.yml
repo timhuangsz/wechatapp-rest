@@ -1,5 +1,10 @@
 server:
   port: 5081
+  servlet-path: /
+  context-path: /WechatApp/Rest
+  jsp-servlet:
+    init-parameters:
+      development: true
 spring:
   cache:
     type: redis
