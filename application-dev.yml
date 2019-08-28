@@ -5,6 +5,10 @@ server:
   jsp-servlet:
     init-parameters:
       development: true
+eureka:
+  instance:
+    preferIpAddress: true
+    ip-address: 192.168.1.158
 spring:
   cache:
     type: redis
