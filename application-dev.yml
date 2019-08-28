@@ -10,6 +10,8 @@ eureka:
     preferIpAddress: true
     ip-address: 192.168.1.158
 spring:
+  application:
+    name: wechatapp-rest
   cache:
     type: redis
   redis:
