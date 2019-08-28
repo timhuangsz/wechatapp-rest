@@ -1,8 +1,6 @@
 server:
   port: 5180
 spring:
-  application:
-    name: wechatapp-rest
   cache:
     type: redis
   redis:
