@@ -1,10 +1,5 @@
 server:
   port: 5180
-  servlet-path: /
-  context-path: /
-  jsp-servlet:
-    init-parameters:
-      development: true
 eureka:
   instance:
     preferIpAddress: true
