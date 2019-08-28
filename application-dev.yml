@@ -1,8 +1,6 @@
 server:
   port: 5081
 spring:
-  application:
-    name: weixin-rest
   cache:
     type: redis
   redis:
@@ -17,9 +15,9 @@ spring:
       max-idle: 8
       min-idle: 0
   datasource:
-      name: weixin-rest
+      name: getprofit
       #url: jdbc:mysql://dtraderp.com:3306/production?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
-      url: jdbc:mysql://127.0.0.1:3306/production?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+      url: jdbc:mysql://127.0.0.1:3306/getprofit?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
       username: root
       password: admin
       # 使用druid数据源
@@ -51,19 +49,9 @@ spring:
 #    supportMethodsArguments: true
 #    params: count=countSql
 
-
-#my local DB:
-#mysql:
-#  jdbc:
-#    driverClassName: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://127.0.0.1:3306/production?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
-#    username: root
-#    password: admin
-
 #my redis config
-myredis:
-  connect:
-    type: pool
-  clusterNodes:  #自定义的  192。168。1。90:6379,192。168。1。91:6379
+#myredis:
+#  connect:
+#    type: pool
+#  clusterNodes:  #自定义的  192。168。1。90:6379,192。168。1。91:6379
 myprofileinfo: this is dev profile
-    
