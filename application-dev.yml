@@ -1,13 +1,5 @@
 server:
   port: 5180
-eureka:
-  client:
-    healthcheck:
-      enabled: true
-  instance:
-    #hostname: getprofit.com
-    preferIpAddress: true
-    ip-address: 127.0.0.1
 spring:
   cache:
     type: redis
