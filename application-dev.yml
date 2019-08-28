@@ -1,7 +1,7 @@
 server:
   port: 5180
   servlet-path: /
-  context-path: /WechatApp/Rest
+  context-path: /
   jsp-servlet:
     init-parameters:
       development: true
