@@ -57,3 +57,6 @@ spring:
 #    type: pool
 #  clusterNodes:  #自定义的  192。168。1。90:6379,192。168。1。91:6379
 myprofileinfo: this is dev profile
+fastdfs:
+  client:
+    conf_path: fdfs_client.conf
