@@ -1,5 +1,8 @@
 server:
   port: 5180
+  jsp-servlet:
+    init-parameters:
+      development: true
 spring:
   application:
     name: wechatapp-rest
@@ -38,6 +41,10 @@ spring:
       testOnReturn: false
       poolPreparedStatements: true
       maxOpenPreparedStatements: 20
+  mvc:
+    view:
+      prefix: /jsp/
+      suffix: .jsp
 #mybatis:
 #  config-location: classpath:mybatis/mybatis-config.xml
 #  mapper-locations: classpath:mybatis/mapper/*.xml
