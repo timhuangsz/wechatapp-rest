@@ -70,7 +70,7 @@ spring:
 myprofileinfo: this is dev profile
 myconfig:
   fastdfs_client_confpath: fdfs_client.conf
-  upload_imagesize_maps:
+  upload_imagesize:
     small_width: 192
     small_height: 192
     big_width: 1024
