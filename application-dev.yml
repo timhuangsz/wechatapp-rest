@@ -75,4 +75,7 @@ myappconfig:
     small_height: 192
     big_width: 1024
     big_height: 1024
-
+  mapProps:
+    key1: abc
+    key2: xyz
+    
