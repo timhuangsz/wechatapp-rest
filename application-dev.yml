@@ -68,8 +68,10 @@ spring:
 #    type: pool
 #  clusterNodes:  #自定义的  192。168。1。90:6379,192。168。1。91:6379
 myprofileinfo: this is dev profile
-myappconfig:
-  mapProps:
-    key1: abc
-    key2: xyz
-    
+
+myconfig:
+  weixin_web_base_url: http://localhost:8080/Weixin
+  weixin_rest_base_url: http://localhost:8081/Rest
+  weixin_import_url_maps:
+    mpoexcessconfirm: /Mpo/Import/MpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+    jobmatstatus: /Job/Import/JobMatStatus?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
