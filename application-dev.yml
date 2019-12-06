@@ -47,8 +47,7 @@ spring:
       maxOpenPreparedStatements: 20
   mvc:
     view:
-      prefix: /WEB-INF/jsp/
-      #prefix: /jsp/
+      prefix: /jsp/
       suffix: .jsp
 #mybatis:
 #  config-location: classpath:mybatis/mybatis-config.xml
